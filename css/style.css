@@ -1,21 +1,22 @@
-body{
+*{
     margin:0;
-    font-family: "Chewy", serif;
-    background-color: rgb(26, 183, 131);
+}
 
+body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-color: rgb(26, 183, 131);
+    font-family: "Chewy", serif;
 }
 
 h1{
-    color:white;
+    font-weight: normal;
+    font-size: 3rem;
     text-align: center;
-    font-weight: lighter;
-    font-size: 2.5rem;
-}
+    padding: 1.5rem;
 
-canvas{
-    background-color: blue;
+    color:white;
 }
